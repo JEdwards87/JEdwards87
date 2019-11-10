@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- I used some code from w3school for the email form. I modified it to have the appearance of the form in the example. -->
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Jesse Edwards</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="name-container">
+            <div class="name">
+                Jesse Edwards
+            </div>
+            <ul>
+                <li><a href="index.html">About</a>
+                <li>|</li>
+                <li><a href="portfolio.html">Portfolio</a>
+                <li>|</li>
+                <li><a href="contact.html">Contact</a>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="content-container">
+            <div class="content">
+                <h1>Contact</h1>
+                <hr>
+                <div class="contact-container">
+                    <form action="action_page.php">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email address..">
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="push">
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="copyright">Copyright©</div>
+    </footer>
+</body>
+
+</html>
