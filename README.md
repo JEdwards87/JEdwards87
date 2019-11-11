@@ -5,7 +5,7 @@ This is my first portfolio website I learned alot about using <div> tags and ali
 
 The contact section is not working right now.
 
-Live Site Here: https://github.com/JEdwards87/JEdwards87.git
+Live Site Here: https://jedwards87.github.io/JEdwards87/
 
 MIT License
 
